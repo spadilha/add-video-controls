@@ -1,0 +1,70 @@
+# OS generated files #
+######################
+
+.DS_Store*
+ehthumbs.db
+._*
+*~
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+.idea
+pimple.json
+
+# IDE generated files #
+######################
+.vscode/*
+!.vscode/extensions.json
+*.code-workspace
+
+# Vim generated files #
+#######################
+
+*.un~
+
+local-xdebuginfo.php
+/vendor/
+.env
+.phpstan-cache/
+/node_modules/
+auth.json
+
+debug.log
+
+############################################
+# Ignore some other system generated files #
+############################################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.log
+*.sql
+*.sqlite
+.Spotlight-V100
+.Trashes
+.codekit-cache
+.sass-cache
+# Sublime
+*.sublime-project
+*.sublime-workspace
+# PhpStorm
+.idea/
+
+# LocalWP
+/.htaccess
+
+# Make sure to include the .sql file for tests
+!tests/_data/dump.sql
